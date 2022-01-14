@@ -2,6 +2,14 @@
 
 Create responsive layouts with React Native with `sm, md, xl`-prefixes (and others) like you would do with regular tailwind classes.
 
+## Install
+
+```bash
+npm install rn-use-tailwind
+# or
+yarn add rn-use-tailwind
+```
+
 ## Usage
 
 This hook makes use of [tailwind-rn](https://github.com/vadimdemedes/tailwind-rn) to transform tailwind classes to the corresponding React Native styles. If you don't need responsive styles, consider using that the regular tailwind-rn package.
@@ -32,10 +40,10 @@ Mobile apps are developed on a number of different screen sizes. Expo even permi
 
 ## Future work
 
-- [] Add tests
-- [] Allow for your own tailwind config. The package now uses the default tailwind styles
+- [ ] Add tests
+- [ ] Allow for your own tailwind config. The package now uses the default tailwind styles
 
-## Gotcha's
+## Gotchas
 
 React Native's inline styling allows an array as input argument. Please make sure your styles are orderd from small to big screen sizes if you wish to use this feature as ordering matters in this array.
 
