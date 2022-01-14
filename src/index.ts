@@ -52,7 +52,7 @@ const useTailwind = () => {
 
   const tw = useCallback(
     (classNames: string) => filterScreenWidth(classNames, width),
-    [filterScreenWidth, width]
+    [width]
   );
 
   return tw;
