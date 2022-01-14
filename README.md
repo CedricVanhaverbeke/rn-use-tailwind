@@ -32,8 +32,8 @@ Mobile apps are developed on a number of different screen sizes. Expo even permi
 
 ## Future work
 
-- [] Add tests
-- [] Allow for your own tailwind config. The package now uses the default tailwind styles
+- [ ] Add tests
+- [ ] Allow for your own tailwind config. The package now uses the default tailwind styles
 
 ## Gotcha's
 
