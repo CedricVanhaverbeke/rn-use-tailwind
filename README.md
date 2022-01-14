@@ -12,7 +12,7 @@ yarn add rn-use-tailwind
 
 ## Usage
 
-This hook makes use of [tailwind-rn](https://github.com/vadimdemedes/tailwind-rn) to transform tailwind classes to the corresponding React Native styles. If you don't need responsive styles, consider using that the regular tailwind-rn package.
+This hook makes use of [tailwind-rn](https://github.com/vadimdemedes/tailwind-rn) to transform tailwind classes to the corresponding React Native styles. If you don't need responsive styles, consider using the regular tailwind-rn package.
 
 The hook returns a modified tailwind function to incorperate responsive styles.
 
